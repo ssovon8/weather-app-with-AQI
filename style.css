@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 90%;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, white, blue);
+}
+
+.searchSec {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBox {
+  flex: 1;
+  margin-right: 5px;
+  height: 35px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+.searchBtn {
+  height: 30px;
+  width: 30px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.searchBtn:hover {
+  background-color: aliceblue;
+  transform: scale(1.1);
+}
+
+.weatherSec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.weatherImg {
+  width: 140px;
+  margin-bottom: -10px;
+}
+
+.temp,
+.cityName {
+  color: white;
+  text-align: center;
+}
+
+.details {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px;
+  color: white;
+}
+
+.col div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 5px;
+}
+
+.col img {
+  height: 25px;
+}
+
+.aqiSec {
+  width: 80%;
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+}
+
+.aqiSec p {
+  margin-left: 15px;
+}
+
+.aqi {
+  width: 100%;
+  margin-top: 15px;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}

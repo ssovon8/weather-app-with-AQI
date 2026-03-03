@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="searchSec">
+            <input type="search" class="searchBox" placeholder="Enter your city" />
+            <button class="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+        <div class="weatherSec">
+            <img src="images/clouds.png" alt="" class="weatherImg" />
+            <p class="weather">Clouds</p>
+        </div>
+        <h1 class="temp">25°C</h1>
+        <h2 class="cityName">Kolkata</h2>
+        <div class="details">
+            <div class="col">
+                <img src="images/humidity.png" alt="" />
+                <div>
+                    <h4 class="humidity">50%</h4>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/wind.png" alt="" />
+                <div>
+                    <h4 class="wind">15 km/h</h4>
+                    <p>Wind</p>
+                </div>
+            </div>
+        </div>
+        <h4 class="aqi">AQI: 5</h4>
+        <div class="aqiSec"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
